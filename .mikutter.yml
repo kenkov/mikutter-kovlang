@@ -1,0 +1,9 @@
+---
+slug: :kovlang
+depends:
+  mikutter: 3.1.0
+  plugin: []
+version: '0.1'
+author: kenkov
+name: こふ語
+description: こふ語変換ﾌﾟﾗｷﾞﾝｯ
