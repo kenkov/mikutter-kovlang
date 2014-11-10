@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-include Math
 
 Plugin.create(:kovlang) do
 
