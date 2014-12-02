@@ -200,7 +200,7 @@ Plugin.create(:kovlang) do
     end
 
     command(:kovlang,
-            name: 'こふ語変換',
+            name: 'ｺﾌﾗｲﾌﾞｯ！',
             condition: lambda { |opt| true },
             visible: true,
             role: :postbox) do |opt|
