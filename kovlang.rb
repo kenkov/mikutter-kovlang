@@ -4,7 +4,7 @@ Plugin.create(:kovlang) do
 
     def load_phrase_model(modelfile)
         phrasemodel = {}
-        open modelfile do |file|
+        open(modelfile, 'r:utf-8') do |file|
             while line = file.gets
                 words, prob = line.split("\t")
                 prob = prob.to_f
@@ -21,7 +21,7 @@ Plugin.create(:kovlang) do
     def load_bigram_model(modelfile)
         unimodel = {}
         bimodel = {}
-        open modelfile do |file|
+        open(modelfile, 'r:utf-8') do |file|
             while line = file.gets
                 words, prob = line.split("\t")
                 prob = prob.to_f
